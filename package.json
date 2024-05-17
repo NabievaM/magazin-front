@@ -1,0 +1,35 @@
+{
+  "name": "magazin-front",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@remix-run/dev": "^2.9.2",
+    "axios": "^1.6.7",
+    "inputmask": "^5.0.8",
+    "loadash": "^1.0.0",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.15",
+    "vue-i18n": "^9.9.1",
+    "vue-router": "^4.2.5",
+    "vue-toastification": "^2.0.0-rc.5"
+  },
+  "devDependencies": {
+    "@intlify/unplugin-vue-i18n": "^2.0.0",
+    "@types/inputmask": "^5.0.7",
+    "@types/node": "^20.11.17",
+    "@vitejs/plugin-vue": "^5.0.3",
+    "autoprefixer": "^10.4.17",
+    "naive-ui": "^2.38.1",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.0",
+    "vue-tsc": "^1.8.27"
+  }
+}
