@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (min-width: 300px) {
+@media (min-width: 290px) {
   .navbar {
-    width: 300px;
+    width: 290px;
   }
   .search {
     width: 60%;
@@ -23,6 +23,12 @@
   }
   .desc {
     font-size: 14px;
+  }
+  .product_cart {
+    width: 280px;
+  }
+  .product_img {
+    width: 275px;
   }
   .order {
     height: 100%;
@@ -101,10 +107,10 @@
     gap: 0;
   }
   .product_cart {
-    width: 250px;
+    width: 290px;
   }
   .product_img {
-    width: 240px;
+    width: 280px;
   }
   .login {
     width: 65%;
