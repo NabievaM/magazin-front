@@ -12,7 +12,7 @@
       </div>
       <img
         class="h-[170px] mx-auto"
-        :src="'http://localhost:3000/' + props.data?.image"
+        :src="'http://5.182.26.68:3000/' + props.data?.image"
       />
     </div>
     <div class="pl-3 text-[12px] font-bold text-slate-400">

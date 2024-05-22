@@ -26,7 +26,7 @@
     </div>
     <div class="admin_order_img border border-solid mx-auto mb-2">
       <img
-        :src="'http://localhost:3000/' + singleOrder?.product?.image"
+        :src="'http://5.182.26.68:3000/' + singleOrder?.product?.image"
         alt=""
       />
     </div>

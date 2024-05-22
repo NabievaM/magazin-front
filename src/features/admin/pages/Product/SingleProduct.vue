@@ -7,7 +7,7 @@
   </button>
   <div class="admin_singleProduct">
     <div class="admin_singleProduct_img">
-      <img :src="'http://localhost:3000/' + singleProduct?.image" alt="" />
+      <img :src="'http://5.182.26.68:3000/' + singleProduct?.image" alt="" />
       <div
         @click="editedImage"
         class="text-slate-400 cursor-pointer text-lg text-center mt-3"

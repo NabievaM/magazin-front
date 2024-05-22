@@ -44,7 +44,7 @@
     <div class="singleProduct_img border">
       <img
         class="mx-auto"
-        :src="'http://localhost:3000/' + singleProduct?.image"
+        :src="'http://5.182.26.68:3000/' + singleProduct?.image"
         alt=""
       />
     </div>
