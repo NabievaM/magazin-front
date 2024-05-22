@@ -3,7 +3,8 @@
     class="product_cart  border mb-1 rounded-md hover:shadow-lg duration-500 ease-in-out"
   >
   <!-- w-[300px] h-[320px] product_cart -->
-    <div class="product_img w-[255px] h-[170px] mx-auto my-1 flex justify-end">
+    <div class="product_img  mx-auto my-1 flex justify-end">
+      <!-- w-[255px] h-[170px] product_img -->
       <div
         @click="addDataToLike"
         class="absolute flex justify-end cursor-pointer"
