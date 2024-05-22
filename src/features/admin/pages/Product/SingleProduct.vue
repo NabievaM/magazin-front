@@ -7,7 +7,7 @@
   </button>
   <div class="admin_singleProduct">
     <div class="admin_singleProduct_img">
-      <img :src="'http://5.182.26.68:3000/' + singleProduct?.image" alt="" />
+      <img :src="image_url + singleProduct?.image" alt="" />
       <div
         @click="editedImage"
         class="text-slate-400 cursor-pointer text-lg text-center mt-3"
@@ -215,6 +215,7 @@ const {
   updateProduct,
   updateProductImage,
 } = useProduct();
+const image_url = import.meta.env.VITE_BASE_URL.replace('uz/api', 'uz/');
 
 const showDelete = ref(false);
 async function showDeleteModal() {

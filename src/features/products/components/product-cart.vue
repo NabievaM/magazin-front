@@ -12,7 +12,7 @@
       </div>
       <img
         class="h-[170px] mx-auto"
-        :src="'http://5.182.26.68:3000/' + props.data?.image"
+        :src="image_url + props.data?.image"
       />
     </div>
     <div class="pl-3 text-[12px] font-bold text-slate-400">
@@ -59,6 +59,8 @@ import {
   writeToLocaleStorage,
   checkFromLocaleStorage,
 } from "@/hooks/localeStorage";
+
+const image_url = import.meta.env.VITE_BASE_URL.replace('uz/api', 'uz/');
 
 const likeStore = useLikeStore();
 

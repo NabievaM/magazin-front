@@ -44,7 +44,7 @@
     <div class="singleProduct_img border">
       <img
         class="mx-auto"
-        :src="'http://5.182.26.68:3000/' + singleProduct?.image"
+        :src="image_url + singleProduct?.image"
         alt=""
       />
     </div>
@@ -120,6 +120,8 @@ import { addOrderObj } from "@/modules/interfaces";
 import { useOrder } from "@/features/admin/composables/order";
 import VButton from "@/components/base/button.vue";
 import { errorToast } from "@/utils/toast";
+const image_url = import.meta.env.VITE_BASE_URL.replace('uz/api', 'uz/');
+
 
 const formatPhoneNumber = (event: Event) => {
   let phoneNumber: string = (event.target as HTMLInputElement).value;

@@ -26,7 +26,7 @@
     </div>
     <div class="admin_order_img border border-solid mx-auto mb-2">
       <img
-        :src="'http://5.182.26.68:3000/' + singleOrder?.product?.image"
+        :src="image_url + singleOrder?.product?.image"
         alt=""
       />
     </div>
@@ -57,6 +57,7 @@ import { onMounted, ref } from "vue";
 import router from "@/router";
 import { adminRoute } from "@/constants/routes/admin";
 const { singleOrder, fetchOneOrder, route, deleteOrder } = useOrder();
+const image_url = import.meta.env.VITE_BASE_URL.replace('uz/api', 'uz/');
 
 const showDelete = ref(false);
 async function showDeleteModal() {
