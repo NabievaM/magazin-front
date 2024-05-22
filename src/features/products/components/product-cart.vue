@@ -1,8 +1,8 @@
 <template>
   <div
-    class="product_cart w-[300px] h-[320px] border mb-1 rounded-md hover:shadow-lg duration-500 ease-in-out"
+    class="product_cart w-[400px] h-[320px] border mb-1 rounded-md hover:shadow-lg duration-500 ease-in-out"
   >
-    <div class="product_img w-[255px] h-[170px] mx-auto my-1 flex justify-end">
+    <div class="product_img w-[300px] h-[190px] mx-auto my-1 flex justify-end">
       <div
         @click="addDataToLike"
         class="absolute flex justify-end cursor-pointer"
