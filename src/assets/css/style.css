@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (min-width: 260px) {
+@media (min-width: 255px) {
   .navbar {
-    width: 260px;
+    width: 255px;
   }
   .search {
     width: 60%;
@@ -25,10 +25,10 @@
     font-size: 14px;
   }
   .product_cart {
-    width: 250px;
+    width: 245px;
   }
   .product_img {
-    width: 245px;
+    width: 240px;
   }
   .order {
     height: 100%;
@@ -49,7 +49,7 @@
     margin-left: auto;
   }
   .singleProduct_img {
-    width: 245px;
+    width: 240px;
   }
   .text_size {
     font-size: 20px;
@@ -65,18 +65,18 @@
     width: 100%;
   }
   .admin_singleProduct_img {
-    width: 245px;
+    width: 240px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 5px;
   }
   .admin_singleProduct_desc {
-    width: 245px;
+    width: 240px;
     margin-left: auto;
     margin-right: auto;
   }
   .admin_order_img {
-    width: 245px;
+    width: 240px;
   }
   .modal_width {
     padding-top: 4px;

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="product_cart  border mb-1 rounded-md hover:shadow-lg duration-500 ease-in-out"
+    class="product_cart border mb-1 rounded-md hover:shadow-lg duration-500 ease-in-out"
   >
   <!-- w-[300px] h-[320px] product_cart -->
     <div class="product_img  mx-auto my-1 flex justify-end">
