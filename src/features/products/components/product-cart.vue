@@ -41,7 +41,7 @@
     <div v-else class="pl-3">
       <div class="text-lg text-primary font-bold">{{ props.data?.price }}</div>
     </div>
-    <div class="mt-6 w-[100%]">
+    <div class="mt-4 w-[100%]">
       <v-button
         @click="onProductSelected(props.data?.id)"
         class="font-semibold w-[90%] mx-auto text-base rounded-[3px] py-[6px] bg-primary hover:bg-emerald-600 text-white transition-transform transform hover:-translate-y-1"
