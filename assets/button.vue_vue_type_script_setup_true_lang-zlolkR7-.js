@@ -1,1 +1,0 @@
-import{d as s,o as e,c as a,a as l,s as n,n as c}from"./index-Dwl_5z_w.js";const r={class:"flex"},t=["icon","color","disabled"],_=s({__name:"button",props:{icon:{},color:{},class:{},disabled:{type:Boolean}},setup(d){return(o,i)=>(e(),a("div",r,[l("button",{icon:o.icon,color:o.color,class:c(o.class),disabled:o.disabled},[n(o.$slots,"default")],10,t)]))}});export{_};
