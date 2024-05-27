@@ -1,1 +1,0 @@
-import{_ as e}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{o as c,c as o,p as s,m as t,a as d}from"./index-BSL1p-Mq.js";const _={},n=a=>(s("data-v-eacdaaac"),a=a(),t(),a),r={class:"text-center"},p=n(()=>d("span",{class:"loader"},"Loading",-1)),i=[p];function m(a,f){return c(),o("div",r,i)}const x=e(_,[["render",m],["__scopeId","data-v-eacdaaac"]]);export{x as L};
