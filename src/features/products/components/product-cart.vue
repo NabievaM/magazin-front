@@ -44,7 +44,7 @@
     <div class="mt-4 w-[100%]">
       <v-button
         @click="onProductSelected(props.data?.id)"
-        class="font-semibold w-[90%] mx-auto text-base rounded-[3px] py-[6px] bg-primary hover:bg-emerald-600 text-white transition-transform transform hover:-translate-y-1"
+        class="font-semibold w-[90%] mx-auto text-base rounded-[3px] py-[6px] bg-primary hover:bg-emerald-600 text-white transition-transform transform hover:-translate-y-1 mb-3"
         >Buyurtma berish</v-button
       >
     </div>
